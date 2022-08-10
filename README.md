@@ -1,1 +1,1 @@
-# edu-auth-js
+# edu-backend-js
