@@ -1,4 +1,7 @@
-# edu-backend-js
+# edu-auth-js
+
+> The project creates a node.js backen application with express.
+> It is set up with jest, and configured to run jest with jest-runner-groups.
 
 ```bash
 cd ~
