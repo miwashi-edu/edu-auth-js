@@ -24,6 +24,9 @@ npm install nodemon -D
 curl -L  https://gist.github.com/miwashiab/da85ca45cff611f9e789a07577c348d5/raw/app.js -o app.js
 curl -L  https://gist.github.com/miwashiab/b0c0569b2a4f0427c3374789a7aab52b/raw/server.js -o server.js
 curl -L https://gist.github.com/miwashiab/3378fc2e4ab5d2691fa5978822721796/raw/.gitignore -o .gitignore
+git init
+git add .
+git commit -m "Initial commit"
 
 ```
 
@@ -43,6 +46,10 @@ curl -L https://gist.github.com/miwashiab/b3dd55fba37616c0d3820a06f0339eb9/raw/j
 curl -L https://gist.github.com/miwashiab/b127c7a83f4eef979a8935bbae3f9fe7/raw/unit_test.js -o ./__tests__/unit_test.js
 curl -L https://gist.github.com/miwashiab/3960996c3bfca2e9b81189c884f74b75/raw/component_test.js -o ./__tests__/component_test.js
 curl -L https://gist.github.com/miwashiab/8d39beda3493d4e5c6b46c2a5f94efc3/raw/integration_test.js -o ./__tests__/integration_test.js
+
+
+git add .
+git commit -m "Added testing"
 ```
 
 
@@ -51,3 +58,24 @@ curl -L https://gist.github.com/miwashiab/8d39beda3493d4e5c6b46c2a5f94efc3/raw/i
 ```bash
 npm install health-check
 ```
+
+## Passport
+
+```bash
+mkdir ./routes
+touch ./routes/posts.js
+
+node 
+require('crypto').randomBytes(64).toString('hex');
+
+npm i passport
+npm i express-session
+npm i passport-local
+npm install passport-jwt
+
+const jwt = require('jsonwebtoken')
+
+git add .
+git commit -m "Added passport"
+```
+
